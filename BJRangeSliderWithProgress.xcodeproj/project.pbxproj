@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8D42FD13E1F8A900273CA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D42FC13E1F8A900273CA2 /* UIKit.framework */; };
+		6F8D42FF13E1F8A900273CA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D42FE13E1F8A900273CA2 /* Foundation.framework */; };
+		6F8D430113E1F8A900273CA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D430013E1F8A900273CA2 /* CoreGraphics.framework */; };
+		6F8D430713E1F8A900273CA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D430513E1F8A900273CA2 /* InfoPlist.strings */; };
+		6F8D430913E1F8A900273CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430813E1F8A900273CA2 /* main.m */; };
+		6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */; };
+		6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m */; };
+		6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F8D42F813E1F8A900273CA2 /* BJRangeSliderWithProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJRangeSliderWithProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8D42FC13E1F8A900273CA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F8D42FE13E1F8A900273CA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F8D430013E1F8A900273CA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F8D430413E1F8A900273CA2 /* BJRangeSliderWithProgress-Info.plist */ = {isa = PBXFileReference; path = "BJRangeSliderWithProgress-Info.plist"; sourceTree = "<group>"; };
+		6F8D430613E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F8D430813E1F8A900273CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F8D430A13E1F8A900273CA2 /* BJRangeSliderWithProgress-Prefix.pch */ = {isa = PBXFileReference; path = "BJRangeSliderWithProgress-Prefix.pch"; sourceTree = "<group>"; };
+		6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.h */ = {isa = PBXFileReference; path = BJRangeSliderWithProgressAppDelegate.h; sourceTree = "<group>"; };
+		6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressAppDelegate.m; sourceTree = "<group>"; };
+		6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.h */ = {isa = PBXFileReference; path = BJRangeSliderWithProgressViewController.h; sourceTree = "<group>"; };
+		6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressViewController.m; sourceTree = "<group>"; };
+		6F8D431213E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BJRangeSliderWithProgressViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F8D42F513E1F8A900273CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8D42FD13E1F8A900273CA2 /* UIKit.framework in Frameworks */,
+				6F8D42FF13E1F8A900273CA2 /* Foundation.framework in Frameworks */,
+				6F8D430113E1F8A900273CA2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F8D42ED13E1F8A900273CA2 = {
+			isa = PBXGroup;
+			children = (
+				6F8D430213E1F8A900273CA2 /* BJRangeSliderWithProgress */,
+				6F8D42FB13E1F8A900273CA2 /* Frameworks */,
+				6F8D42F913E1F8A900273CA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F8D42F913E1F8A900273CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F8D42F813E1F8A900273CA2 /* BJRangeSliderWithProgress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F8D42FB13E1F8A900273CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F8D42FC13E1F8A900273CA2 /* UIKit.framework */,
+				6F8D42FE13E1F8A900273CA2 /* Foundation.framework */,
+				6F8D430013E1F8A900273CA2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F8D430213E1F8A900273CA2 /* BJRangeSliderWithProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.h */,
+				6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */,
+				6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.h */,
+				6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m */,
+				6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib */,
+				6F8D430313E1F8A900273CA2 /* Supporting Files */,
+			);
+			path = BJRangeSliderWithProgress;
+			sourceTree = "<group>";
+		};
+		6F8D430313E1F8A900273CA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F8D430413E1F8A900273CA2 /* BJRangeSliderWithProgress-Info.plist */,
+				6F8D430513E1F8A900273CA2 /* InfoPlist.strings */,
+				6F8D430813E1F8A900273CA2 /* main.m */,
+				6F8D430A13E1F8A900273CA2 /* BJRangeSliderWithProgress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F8D42F713E1F8A900273CA2 /* BJRangeSliderWithProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8D431613E1F8A900273CA2 /* Build configuration list for PBXNativeTarget "BJRangeSliderWithProgress" */;
+			buildPhases = (
+				6F8D42F413E1F8A900273CA2 /* Sources */,
+				6F8D42F513E1F8A900273CA2 /* Frameworks */,
+				6F8D42F613E1F8A900273CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BJRangeSliderWithProgress;
+			productName = BJRangeSliderWithProgress;
+			productReference = 6F8D42F813E1F8A900273CA2 /* BJRangeSliderWithProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F8D42EF13E1F8A900273CA2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6F8D42F213E1F8A900273CA2 /* Build configuration list for PBXProject "BJRangeSliderWithProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F8D42ED13E1F8A900273CA2;
+			productRefGroup = 6F8D42F913E1F8A900273CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F8D42F713E1F8A900273CA2 /* BJRangeSliderWithProgress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F8D42F613E1F8A900273CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8D430713E1F8A900273CA2 /* InfoPlist.strings in Resources */,
+				6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F8D42F413E1F8A900273CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8D430913E1F8A900273CA2 /* main.m in Sources */,
+				6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m in Sources */,
+				6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F8D430513E1F8A900273CA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8D430613E1F8A900273CA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8D431213E1F8A900273CA2 /* en */,
+			);
+			name = BJRangeSliderWithProgressViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F8D431413E1F8A900273CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F8D431513E1F8A900273CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F8D431713E1F8A900273CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BJRangeSliderWithProgress/BJRangeSliderWithProgress-Prefix.pch";
+				INFOPLIST_FILE = "BJRangeSliderWithProgress/BJRangeSliderWithProgress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F8D431813E1F8A900273CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BJRangeSliderWithProgress/BJRangeSliderWithProgress-Prefix.pch";
+				INFOPLIST_FILE = "BJRangeSliderWithProgress/BJRangeSliderWithProgress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F8D42F213E1F8A900273CA2 /* Build configuration list for PBXProject "BJRangeSliderWithProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8D431413E1F8A900273CA2 /* Debug */,
+				6F8D431513E1F8A900273CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8D431613E1F8A900273CA2 /* Build configuration list for PBXNativeTarget "BJRangeSliderWithProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8D431713E1F8A900273CA2 /* Debug */,
+				6F8D431813E1F8A900273CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F8D42EF13E1F8A900273CA2 /* Project object */;
+}
