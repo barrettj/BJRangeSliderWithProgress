@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class BJRangeSliderWithProgressViewController;
+@class BJRangeSliderWithProgressDemoViewController;
 
 @interface BJRangeSliderWithProgressAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) BJRangeSliderWithProgressViewController *viewController;
+@property (strong, nonatomic) BJRangeSliderWithProgressDemoViewController *viewController;
 
 @end

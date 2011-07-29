@@ -6,9 +6,9 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "BJRangeSliderWithProgressViewController.h"
+#import "BJRangeSliderWithProgressDemoViewController.h"
 
-@implementation BJRangeSliderWithProgressViewController
+@implementation BJRangeSliderWithProgressDemoViewController
 
 - (void)didReceiveMemoryWarning
 {

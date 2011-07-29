@@ -8,7 +8,7 @@
 
 #import "BJRangeSliderWithProgressAppDelegate.h"
 
-#import "BJRangeSliderWithProgressViewController.h"
+#import "BJRangeSliderWithProgressDemoViewController.h"
 
 @implementation BJRangeSliderWithProgressAppDelegate
 
@@ -19,7 +19,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[BJRangeSliderWithProgressViewController alloc] initWithNibName:@"BJRangeSliderWithProgressViewController" bundle:nil]; 
+    self.viewController = [[BJRangeSliderWithProgressDemoViewController alloc] initWithNibName:@"BJRangeSliderWithProgressViewController" bundle:nil]; 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

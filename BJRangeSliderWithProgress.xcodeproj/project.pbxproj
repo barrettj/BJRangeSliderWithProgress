@@ -13,8 +13,8 @@
 		6F8D430713E1F8A900273CA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D430513E1F8A900273CA2 /* InfoPlist.strings */; };
 		6F8D430913E1F8A900273CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430813E1F8A900273CA2 /* main.m */; };
 		6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */; };
-		6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m */; };
-		6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib */; };
+		6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m */; };
+		6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +22,15 @@
 		6F8D42FC13E1F8A900273CA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F8D42FE13E1F8A900273CA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F8D430013E1F8A900273CA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F8D430413E1F8A900273CA2 /* BJRangeSliderWithProgress-Info.plist */ = {isa = PBXFileReference; path = "BJRangeSliderWithProgress-Info.plist"; sourceTree = "<group>"; };
+		6F8D430413E1F8A900273CA2 /* BJRangeSliderWithProgress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BJRangeSliderWithProgress-Info.plist"; sourceTree = "<group>"; };
 		6F8D430613E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F8D430813E1F8A900273CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F8D430A13E1F8A900273CA2 /* BJRangeSliderWithProgress-Prefix.pch */ = {isa = PBXFileReference; path = "BJRangeSliderWithProgress-Prefix.pch"; sourceTree = "<group>"; };
-		6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.h */ = {isa = PBXFileReference; path = BJRangeSliderWithProgressAppDelegate.h; sourceTree = "<group>"; };
+		6F8D430A13E1F8A900273CA2 /* BJRangeSliderWithProgress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJRangeSliderWithProgress-Prefix.pch"; sourceTree = "<group>"; };
+		6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJRangeSliderWithProgressAppDelegate.h; sourceTree = "<group>"; };
 		6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressAppDelegate.m; sourceTree = "<group>"; };
-		6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.h */ = {isa = PBXFileReference; path = BJRangeSliderWithProgressViewController.h; sourceTree = "<group>"; };
-		6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressViewController.m; sourceTree = "<group>"; };
-		6F8D431213E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BJRangeSliderWithProgressViewController.xib; sourceTree = "<group>"; };
+		6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.h */ = {isa = PBXFileReference; path = BJRangeSliderWithProgressDemoViewController.h; sourceTree = "<group>"; };
+		6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressDemoViewController.m; sourceTree = "<group>"; };
+		6F8D431213E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BJRangeSliderWithProgressDemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		6F8D42ED13E1F8A900273CA2 = {
 			isa = PBXGroup;
 			children = (
-				6F8D430213E1F8A900273CA2 /* BJRangeSliderWithProgress */,
+				6F8D430213E1F8A900273CA2 /* BJRangeSliderWithProgressDemo */,
 				6F8D42FB13E1F8A900273CA2 /* Frameworks */,
 				6F8D42F913E1F8A900273CA2 /* Products */,
 			);
@@ -74,16 +74,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6F8D430213E1F8A900273CA2 /* BJRangeSliderWithProgress */ = {
+		6F8D430213E1F8A900273CA2 /* BJRangeSliderWithProgressDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6F8D434E13E309EB00273CA2 /* BJRangeSliderWithProgress */,
 				6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.h */,
 				6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */,
-				6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.h */,
-				6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m */,
-				6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib */,
+				6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.h */,
+				6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m */,
+				6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib */,
 				6F8D430313E1F8A900273CA2 /* Supporting Files */,
 			);
+			name = BJRangeSliderWithProgressDemo;
 			path = BJRangeSliderWithProgress;
 			sourceTree = "<group>";
 		};
@@ -96,6 +98,13 @@
 				6F8D430A13E1F8A900273CA2 /* BJRangeSliderWithProgress-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F8D434E13E309EB00273CA2 /* BJRangeSliderWithProgress */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BJRangeSliderWithProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +132,9 @@
 /* Begin PBXProject section */
 		6F8D42EF13E1F8A900273CA2 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 6F8D42F213E1F8A900273CA2 /* Build configuration list for PBXProject "BJRangeSliderWithProgress" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -146,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F8D430713E1F8A900273CA2 /* InfoPlist.strings in Resources */,
-				6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib in Resources */,
+				6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +171,7 @@
 			files = (
 				6F8D430913E1F8A900273CA2 /* main.m in Sources */,
 				6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m in Sources */,
-				6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.m in Sources */,
+				6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,12 +186,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressViewController.xib */ = {
+		6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6F8D431213E1F8A900273CA2 /* en */,
 			);
-			name = BJRangeSliderWithProgressViewController.xib;
+			name = BJRangeSliderWithProgressDemoViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,6 +283,7 @@
 				6F8D431813E1F8A900273CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

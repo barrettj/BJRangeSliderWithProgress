@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BJRangeSliderWithProgressViewController : UIViewController
+@interface BJRangeSliderWithProgressDemoViewController : UIViewController
 
 @end
