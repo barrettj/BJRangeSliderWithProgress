@@ -12,9 +12,14 @@
 		6F8D430113E1F8A900273CA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D430013E1F8A900273CA2 /* CoreGraphics.framework */; };
 		6F8D430713E1F8A900273CA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D430513E1F8A900273CA2 /* InfoPlist.strings */; };
 		6F8D430913E1F8A900273CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430813E1F8A900273CA2 /* main.m */; };
-		6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */; };
+		6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoAppDelegate.m */; };
 		6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m */; };
 		6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib */; };
+		6F8D435113E30F1000273CA2 /* BJRangeSliderWithProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D435013E30F1000273CA2 /* BJRangeSliderWithProgress.m */; };
+		6F8D435713E3402700273CA2 /* BJRangeSliderEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435613E3402700273CA2 /* BJRangeSliderEmpty.png */; };
+		6F8D435A13E341C800273CA2 /* BJRangeSliderBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435813E341C800273CA2 /* BJRangeSliderBlue.png */; };
+		6F8D435B13E341C800273CA2 /* BJRangeSliderRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435913E341C800273CA2 /* BJRangeSliderRed.png */; };
+		6F8D435D13E349DC00273CA2 /* BJRangeSliderGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435C13E349DC00273CA2 /* BJRangeSliderGreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +31,17 @@
 		6F8D430613E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F8D430813E1F8A900273CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F8D430A13E1F8A900273CA2 /* BJRangeSliderWithProgress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJRangeSliderWithProgress-Prefix.pch"; sourceTree = "<group>"; };
-		6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJRangeSliderWithProgressAppDelegate.h; sourceTree = "<group>"; };
-		6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressAppDelegate.m; sourceTree = "<group>"; };
-		6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.h */ = {isa = PBXFileReference; path = BJRangeSliderWithProgressDemoViewController.h; sourceTree = "<group>"; };
+		6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJRangeSliderWithProgressDemoAppDelegate.h; sourceTree = "<group>"; };
+		6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressDemoAppDelegate.m; sourceTree = "<group>"; };
+		6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJRangeSliderWithProgressDemoViewController.h; sourceTree = "<group>"; };
 		6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgressDemoViewController.m; sourceTree = "<group>"; };
 		6F8D431213E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BJRangeSliderWithProgressDemoViewController.xib; sourceTree = "<group>"; };
+		6F8D434F13E30F1000273CA2 /* BJRangeSliderWithProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRangeSliderWithProgress.h; sourceTree = "<group>"; };
+		6F8D435013E30F1000273CA2 /* BJRangeSliderWithProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgress.m; sourceTree = "<group>"; };
+		6F8D435613E3402700273CA2 /* BJRangeSliderEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderEmpty.png; sourceTree = "<group>"; };
+		6F8D435813E341C800273CA2 /* BJRangeSliderBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderBlue.png; sourceTree = "<group>"; };
+		6F8D435913E341C800273CA2 /* BJRangeSliderRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderRed.png; sourceTree = "<group>"; };
+		6F8D435C13E349DC00273CA2 /* BJRangeSliderGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderGreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				6F8D434E13E309EB00273CA2 /* BJRangeSliderWithProgress */,
-				6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.h */,
-				6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m */,
+				6F8D430B13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoAppDelegate.h */,
+				6F8D430C13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoAppDelegate.m */,
 				6F8D430E13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.h */,
 				6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m */,
 				6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib */,
@@ -103,6 +114,12 @@
 		6F8D434E13E309EB00273CA2 /* BJRangeSliderWithProgress */ = {
 			isa = PBXGroup;
 			children = (
+				6F8D435613E3402700273CA2 /* BJRangeSliderEmpty.png */,
+				6F8D435813E341C800273CA2 /* BJRangeSliderBlue.png */,
+				6F8D435913E341C800273CA2 /* BJRangeSliderRed.png */,
+				6F8D435C13E349DC00273CA2 /* BJRangeSliderGreen.png */,
+				6F8D434F13E30F1000273CA2 /* BJRangeSliderWithProgress.h */,
+				6F8D435013E30F1000273CA2 /* BJRangeSliderWithProgress.m */,
 			);
 			path = BJRangeSliderWithProgress;
 			sourceTree = "<group>";
@@ -159,6 +176,10 @@
 			files = (
 				6F8D430713E1F8A900273CA2 /* InfoPlist.strings in Resources */,
 				6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib in Resources */,
+				6F8D435713E3402700273CA2 /* BJRangeSliderEmpty.png in Resources */,
+				6F8D435A13E341C800273CA2 /* BJRangeSliderBlue.png in Resources */,
+				6F8D435B13E341C800273CA2 /* BJRangeSliderRed.png in Resources */,
+				6F8D435D13E349DC00273CA2 /* BJRangeSliderGreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F8D430913E1F8A900273CA2 /* main.m in Sources */,
-				6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressAppDelegate.m in Sources */,
+				6F8D430D13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoAppDelegate.m in Sources */,
 				6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m in Sources */,
+				6F8D435113E30F1000273CA2 /* BJRangeSliderWithProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

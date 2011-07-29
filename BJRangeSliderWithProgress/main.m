@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "BJRangeSliderWithProgressAppDelegate.h"
+#import "BJRangeSliderWithProgressDemoAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([BJRangeSliderWithProgressAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([BJRangeSliderWithProgressDemoAppDelegate class]));
     }
 }

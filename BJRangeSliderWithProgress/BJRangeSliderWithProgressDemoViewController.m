@@ -9,6 +9,7 @@
 #import "BJRangeSliderWithProgressDemoViewController.h"
 
 @implementation BJRangeSliderWithProgressDemoViewController
+@synthesize slider;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +27,7 @@
 
 - (void)viewDidUnload
 {
+    [self setSlider:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -34,6 +36,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    [self.slider setDisplayMode:BJRSWPAudioRecordMode];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -53,8 +57,46 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 }
+
+- (void)recordDemoFire:(NSTimer*)timer {
+    self.slider.currentProgressValue += 0.6;
+    
+    if (self.slider.currentProgressValue >= self.slider.maxValue) {
+
+        [self.slider setDisplayMode:BJRSWPAudioSetTrimMode];
+
+        [timer invalidate];
+    }
+}
+
+- (IBAction)didPressRecordDemo:(id)sender {
+    [self.slider setDisplayMode:BJRSWPAudioRecordMode];
+    
+    self.slider.currentProgressValue = 0;
+    self.slider.leftValue = 0;
+    self.slider.rightValue = self.slider.maxValue;
+    
+    [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(recordDemoFire:) userInfo:nil repeats:YES];
+}
+
+- (void)playDemoFire:(NSTimer*)timer {
+    self.slider.currentProgressValue += 0.2;
+    
+    if (self.slider.currentProgressValue >= self.slider.rightValue) {
+        [self.slider setDisplayMode:BJRSWPAudioSetTrimMode];
+
+        [timer invalidate];
+    }
+}
+
+- (IBAction)didPressPlayDemo:(id)sender {
+    [self.slider setDisplayMode:BJRSWPAudioPlayMode];
+    self.slider.currentProgressValue = self.slider.leftValue;
+    
+    [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(playDemoFire:) userInfo:nil repeats:YES];
+}
+
 
 @end

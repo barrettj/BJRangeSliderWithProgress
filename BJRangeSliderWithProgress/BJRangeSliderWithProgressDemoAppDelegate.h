@@ -10,7 +10,7 @@
 
 @class BJRangeSliderWithProgressDemoViewController;
 
-@interface BJRangeSliderWithProgressAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BJRangeSliderWithProgressDemoAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

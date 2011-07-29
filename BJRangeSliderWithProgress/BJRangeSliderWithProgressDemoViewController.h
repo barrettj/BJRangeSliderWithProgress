@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BJRangeSliderWithProgress.h"
 
-@interface BJRangeSliderWithProgressDemoViewController : UIViewController
+
+@interface BJRangeSliderWithProgressDemoViewController : UIViewController {
+    BJRangeSliderWithProgress *slider;
+    
+}
+
+@property (strong, nonatomic) IBOutlet BJRangeSliderWithProgress *slider;
+
+- (IBAction)didPressRecordDemo:(id)sender;
+- (IBAction)didPressPlayDemo:(id)sender;
 
 @end

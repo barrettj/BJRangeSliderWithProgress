@@ -6,11 +6,11 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "BJRangeSliderWithProgressAppDelegate.h"
+#import "BJRangeSliderWithProgressDemoAppDelegate.h"
 
 #import "BJRangeSliderWithProgressDemoViewController.h"
 
-@implementation BJRangeSliderWithProgressAppDelegate
+@implementation BJRangeSliderWithProgressDemoAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
@@ -19,7 +19,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[BJRangeSliderWithProgressDemoViewController alloc] initWithNibName:@"BJRangeSliderWithProgressViewController" bundle:nil]; 
+    self.viewController = [[BJRangeSliderWithProgressDemoViewController alloc] initWithNibName:@"BJRangeSliderWithProgressDemoViewController" bundle:nil]; 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
