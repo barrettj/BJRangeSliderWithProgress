@@ -15,7 +15,7 @@ typedef enum {
 
 } BJRangeSliderWithProgressDisplayMode;
 
-#define BJRANGESLIDER_THUMB_SIZE 40.0
+#define BJRANGESLIDER_THUMB_SIZE 32.0
 
 @interface BJRangeSliderWithProgress : UIControl {
 
