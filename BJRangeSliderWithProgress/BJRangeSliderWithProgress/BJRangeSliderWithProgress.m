@@ -236,6 +236,8 @@
         default:
             break;
     }
+    
+    [self setNeedsLayout];
 }
 
 @end
