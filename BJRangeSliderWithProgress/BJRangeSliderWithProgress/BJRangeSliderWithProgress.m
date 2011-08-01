@@ -199,9 +199,15 @@
     CGFloat rangeWidth = right - left;
     rangeImage.frame = CGRectMake(inset + left, self.frame.size.height / 2 - 5, rangeWidth, 10);
     
-    CGFloat progressWidth = floorf((currentProgressValue - leftValue) / (rightValue - leftValue) * rangeWidth);
-    progressImage.frame = CGRectMake(inset + left, self.frame.size.height / 2 - 5, progressWidth, 10);
-    
+    if ([self showProgress]) {
+        CGFloat progressWidth = floorf((currentProgressValue - leftValue) / (rightValue - leftValue) * rangeWidth);
+        if (isnan(progressWidth)) {
+            progressWidth = 0;
+        }
+
+        progressImage.frame = CGRectMake(inset + left, self.frame.size.height / 2 - 5, progressWidth, 10);
+    }
+        
     leftThumb.center = CGPointMake(inset + left, self.frame.size.height / 2 - BJRANGESLIDER_THUMB_SIZE / 2);
     rightThumb.center = CGPointMake(inset + right, self.frame.size.height / 2 + BJRANGESLIDER_THUMB_SIZE / 2);
 }
