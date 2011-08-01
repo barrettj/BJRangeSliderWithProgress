@@ -115,6 +115,8 @@
         self.leftValue += translation.x / availableWidth * range;
         
         [gesture setTranslation:CGPointZero inView:self];
+        
+        [self sendActionsForControlEvents:UIControlEventValueChanged];
     }
 }
 
@@ -126,6 +128,8 @@
         self.rightValue += translation.x / availableWidth * range;
         
         [gesture setTranslation:CGPointZero inView:self];
+        
+        [self sendActionsForControlEvents:UIControlEventValueChanged];
     }
 }
 
