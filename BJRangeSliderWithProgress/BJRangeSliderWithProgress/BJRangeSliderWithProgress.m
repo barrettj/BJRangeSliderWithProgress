@@ -148,7 +148,7 @@
 
     
     leftThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, BJRANGESLIDER_THUMB_SIZE, BJRANGESLIDER_THUMB_SIZE)];
-    leftThumb.backgroundColor = [UIColor yellowColor];
+    leftThumb.image = [UIImage imageNamed:@"BJRangeSliderStartThumb.png"];
     leftThumb.userInteractionEnabled = YES;
     [self addSubview:leftThumb];
     
@@ -156,14 +156,12 @@
     [leftThumb addGestureRecognizer:leftPan];
     
     rightThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, BJRANGESLIDER_THUMB_SIZE, BJRANGESLIDER_THUMB_SIZE)];
-    rightThumb.backgroundColor = [UIColor blueColor];
+    rightThumb.image = [UIImage imageNamed:@"BJRangeSliderEndThumb.png"];
     rightThumb.userInteractionEnabled = YES;
     [self addSubview:rightThumb];
     
     UIPanGestureRecognizer *rightPan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleRightPan:)];
     [rightThumb addGestureRecognizer:rightPan];
-
-
 }
 
 - (id)initWithFrame:(CGRect)frame {
