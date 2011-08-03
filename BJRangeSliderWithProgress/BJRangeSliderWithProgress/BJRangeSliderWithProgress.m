@@ -194,10 +194,20 @@
     CGFloat left = floorf((leftValue - minValue) / range * availableWidth);
     CGFloat right = floorf((rightValue - minValue) / range * availableWidth);
     
+    if (isnan(left)) {
+        left = 0;
+    }
+    
+    if (isnan(right)) {
+        right = 0;
+    }
+    
     slider.frame = CGRectMake(inset, self.frame.size.height / 2 - 5, availableWidth, 10);
 
     CGFloat rangeWidth = right - left;
-    rangeImage.frame = CGRectMake(inset + left, self.frame.size.height / 2 - 5, rangeWidth, 10);
+    if ([self showRange]) {
+        rangeImage.frame = CGRectMake(inset + left, self.frame.size.height / 2 - 5, rangeWidth, 10);
+    }
     
     if ([self showProgress]) {
         CGFloat progressWidth = floorf((currentProgressValue - leftValue) / (rightValue - leftValue) * rangeWidth);
