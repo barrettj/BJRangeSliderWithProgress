@@ -5,3 +5,6 @@ I use it to indicate progress of recording audio, represent trimming it, and the
 MIT License
 
 If you use it, I'd love to hear from you: @barrettjacosbsen
+
+
+![](http://github.com/barrettj/BJRangeSliderWithProgress/blob/master/screenshot.png) 
