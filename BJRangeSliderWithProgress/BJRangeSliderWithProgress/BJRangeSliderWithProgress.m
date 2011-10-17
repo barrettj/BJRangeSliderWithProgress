@@ -150,18 +150,22 @@
     progressImage = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"BJRangeSliderRed.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4]];
     [self addSubview:progressImage];
 
-    
-    leftThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, BJRANGESLIDER_THUMB_SIZE, BJRANGESLIDER_THUMB_SIZE)];
+
+    // left thumb is above
+    leftThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, -BJRANGESLIDER_THUMB_SIZE, BJRANGESLIDER_THUMB_SIZE + 12, BJRANGESLIDER_THUMB_SIZE * 2)];
     leftThumb.image = [UIImage imageNamed:@"BJRangeSliderStartThumb.png"];
     leftThumb.userInteractionEnabled = YES;
+    leftThumb.contentMode = UIViewContentModeCenter;
     [self addSubview:leftThumb];
     
     UIPanGestureRecognizer *leftPan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleLeftPan:)];
     [leftThumb addGestureRecognizer:leftPan];
     
-    rightThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, BJRANGESLIDER_THUMB_SIZE, BJRANGESLIDER_THUMB_SIZE)];
+    //right thumb is below
+    rightThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, BJRANGESLIDER_THUMB_SIZE + 12, BJRANGESLIDER_THUMB_SIZE * 2)];
     rightThumb.image = [UIImage imageNamed:@"BJRangeSliderEndThumb.png"];
     rightThumb.userInteractionEnabled = YES;
+    rightThumb.contentMode = UIViewContentModeCenter;
     [self addSubview:rightThumb];
     
     UIPanGestureRecognizer *rightPan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleRightPan:)];
