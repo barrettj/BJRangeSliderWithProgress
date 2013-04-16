@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F1C0ACD150A3F6B00D5316F /* BJRangeSliderEndThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1C0ACB150A3F6B00D5316F /* BJRangeSliderEndThumb@2x.png */; };
-		6F1C0ACE150A3F6B00D5316F /* BJRangeSliderStartThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1C0ACC150A3F6B00D5316F /* BJRangeSliderStartThumb@2x.png */; };
 		6F8D42FD13E1F8A900273CA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D42FC13E1F8A900273CA2 /* UIKit.framework */; };
 		6F8D42FF13E1F8A900273CA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D42FE13E1F8A900273CA2 /* Foundation.framework */; };
 		6F8D430113E1F8A900273CA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8D430013E1F8A900273CA2 /* CoreGraphics.framework */; };
@@ -18,21 +16,10 @@
 		6F8D431013E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D430F13E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.m */; };
 		6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D431113E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib */; };
 		6F8D435113E30F1000273CA2 /* BJRangeSliderWithProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D435013E30F1000273CA2 /* BJRangeSliderWithProgress.m */; };
-		6F8D435713E3402700273CA2 /* BJRangeSliderEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435613E3402700273CA2 /* BJRangeSliderEmpty.png */; };
-		6F8D435A13E341C800273CA2 /* BJRangeSliderBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435813E341C800273CA2 /* BJRangeSliderBlue.png */; };
-		6F8D435B13E341C800273CA2 /* BJRangeSliderRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435913E341C800273CA2 /* BJRangeSliderRed.png */; };
-		6F8D435D13E349DC00273CA2 /* BJRangeSliderGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435C13E349DC00273CA2 /* BJRangeSliderGreen.png */; };
-		6F8D436013E720D300273CA2 /* BJRangeSliderEndThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435E13E720D300273CA2 /* BJRangeSliderEndThumb.png */; };
-		6F8D436113E720D300273CA2 /* BJRangeSliderStartThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D435F13E720D300273CA2 /* BJRangeSliderStartThumb.png */; };
-		6FAF159715080D8900D06D3E /* BJRangeSliderBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF159315080D8900D06D3E /* BJRangeSliderBlue@2x.png */; };
-		6FAF159815080D8900D06D3E /* BJRangeSliderEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF159415080D8900D06D3E /* BJRangeSliderEmpty@2x.png */; };
-		6FAF159915080D8900D06D3E /* BJRangeSliderGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF159515080D8900D06D3E /* BJRangeSliderGreen@2x.png */; };
-		6FAF159A15080D8900D06D3E /* BJRangeSliderRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF159615080D8900D06D3E /* BJRangeSliderRed@2x.png */; };
+		B591A946171D9B00002948EC /* BJRangeSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B591A945171D9B00002948EC /* BJRangeSlider.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F1C0ACB150A3F6B00D5316F /* BJRangeSliderEndThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BJRangeSliderEndThumb@2x.png"; sourceTree = "<group>"; };
-		6F1C0ACC150A3F6B00D5316F /* BJRangeSliderStartThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BJRangeSliderStartThumb@2x.png"; sourceTree = "<group>"; };
 		6F8D42F813E1F8A900273CA2 /* BJRangeSliderWithProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJRangeSliderWithProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8D42FC13E1F8A900273CA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F8D42FE13E1F8A900273CA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,16 +35,7 @@
 		6F8D431213E1F8A900273CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BJRangeSliderWithProgressDemoViewController.xib; sourceTree = "<group>"; };
 		6F8D434F13E30F1000273CA2 /* BJRangeSliderWithProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRangeSliderWithProgress.h; sourceTree = "<group>"; };
 		6F8D435013E30F1000273CA2 /* BJRangeSliderWithProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRangeSliderWithProgress.m; sourceTree = "<group>"; };
-		6F8D435613E3402700273CA2 /* BJRangeSliderEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderEmpty.png; sourceTree = "<group>"; };
-		6F8D435813E341C800273CA2 /* BJRangeSliderBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderBlue.png; sourceTree = "<group>"; };
-		6F8D435913E341C800273CA2 /* BJRangeSliderRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderRed.png; sourceTree = "<group>"; };
-		6F8D435C13E349DC00273CA2 /* BJRangeSliderGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderGreen.png; sourceTree = "<group>"; };
-		6F8D435E13E720D300273CA2 /* BJRangeSliderEndThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderEndThumb.png; sourceTree = "<group>"; };
-		6F8D435F13E720D300273CA2 /* BJRangeSliderStartThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJRangeSliderStartThumb.png; sourceTree = "<group>"; };
-		6FAF159315080D8900D06D3E /* BJRangeSliderBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BJRangeSliderBlue@2x.png"; sourceTree = "<group>"; };
-		6FAF159415080D8900D06D3E /* BJRangeSliderEmpty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BJRangeSliderEmpty@2x.png"; sourceTree = "<group>"; };
-		6FAF159515080D8900D06D3E /* BJRangeSliderGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BJRangeSliderGreen@2x.png"; sourceTree = "<group>"; };
-		6FAF159615080D8900D06D3E /* BJRangeSliderRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BJRangeSliderRed@2x.png"; sourceTree = "<group>"; };
+		B591A945171D9B00002948EC /* BJRangeSlider.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BJRangeSlider.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,18 +108,7 @@
 		6F8D434E13E309EB00273CA2 /* BJRangeSliderWithProgress */ = {
 			isa = PBXGroup;
 			children = (
-				6F1C0ACB150A3F6B00D5316F /* BJRangeSliderEndThumb@2x.png */,
-				6F1C0ACC150A3F6B00D5316F /* BJRangeSliderStartThumb@2x.png */,
-				6FAF159315080D8900D06D3E /* BJRangeSliderBlue@2x.png */,
-				6FAF159415080D8900D06D3E /* BJRangeSliderEmpty@2x.png */,
-				6FAF159515080D8900D06D3E /* BJRangeSliderGreen@2x.png */,
-				6FAF159615080D8900D06D3E /* BJRangeSliderRed@2x.png */,
-				6F8D435613E3402700273CA2 /* BJRangeSliderEmpty.png */,
-				6F8D435813E341C800273CA2 /* BJRangeSliderBlue.png */,
-				6F8D435913E341C800273CA2 /* BJRangeSliderRed.png */,
-				6F8D435C13E349DC00273CA2 /* BJRangeSliderGreen.png */,
-				6F8D435E13E720D300273CA2 /* BJRangeSliderEndThumb.png */,
-				6F8D435F13E720D300273CA2 /* BJRangeSliderStartThumb.png */,
+				B591A945171D9B00002948EC /* BJRangeSlider.bundle */,
 				6F8D434F13E30F1000273CA2 /* BJRangeSliderWithProgress.h */,
 				6F8D435013E30F1000273CA2 /* BJRangeSliderWithProgress.m */,
 			);
@@ -200,18 +167,7 @@
 			files = (
 				6F8D430713E1F8A900273CA2 /* InfoPlist.strings in Resources */,
 				6F8D431313E1F8A900273CA2 /* BJRangeSliderWithProgressDemoViewController.xib in Resources */,
-				6F8D435713E3402700273CA2 /* BJRangeSliderEmpty.png in Resources */,
-				6F8D435A13E341C800273CA2 /* BJRangeSliderBlue.png in Resources */,
-				6F8D435B13E341C800273CA2 /* BJRangeSliderRed.png in Resources */,
-				6F8D435D13E349DC00273CA2 /* BJRangeSliderGreen.png in Resources */,
-				6F8D436013E720D300273CA2 /* BJRangeSliderEndThumb.png in Resources */,
-				6F8D436113E720D300273CA2 /* BJRangeSliderStartThumb.png in Resources */,
-				6FAF159715080D8900D06D3E /* BJRangeSliderBlue@2x.png in Resources */,
-				6FAF159815080D8900D06D3E /* BJRangeSliderEmpty@2x.png in Resources */,
-				6FAF159915080D8900D06D3E /* BJRangeSliderGreen@2x.png in Resources */,
-				6FAF159A15080D8900D06D3E /* BJRangeSliderRed@2x.png in Resources */,
-				6F1C0ACD150A3F6B00D5316F /* BJRangeSliderEndThumb@2x.png in Resources */,
-				6F1C0ACE150A3F6B00D5316F /* BJRangeSliderStartThumb@2x.png in Resources */,
+				B591A946171D9B00002948EC /* BJRangeSlider.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

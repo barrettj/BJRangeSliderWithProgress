@@ -141,19 +141,19 @@
     leftValue = minValue;
     rightValue = maxValue;
     
-    slider = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"BJRangeSliderEmpty.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4]];
+    slider = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"BJRangeSlider.bundle/BJRangeSliderEmpty.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4]];
     [self addSubview:slider];
 
-    rangeImage = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"BJRangeSliderBlue.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4]];
+    rangeImage = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"BJRangeSlider.bundle/BJRangeSliderBlue.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4]];
     [self addSubview:rangeImage];
 
-    progressImage = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"BJRangeSliderRed.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4]];
+    progressImage = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"BJRangeSlider.bundle/BJRangeSliderRed.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4]];
     [self addSubview:progressImage];
 
 
     // left thumb is above
     leftThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, -BJRANGESLIDER_THUMB_SIZE, BJRANGESLIDER_THUMB_SIZE + 12, BJRANGESLIDER_THUMB_SIZE * 2)];
-    leftThumb.image = [UIImage imageNamed:@"BJRangeSliderStartThumb.png"];
+    leftThumb.image = [UIImage imageNamed:@"BJRangeSlider.bundle/BJRangeSliderStartThumb.png"];
     leftThumb.userInteractionEnabled = YES;
     leftThumb.contentMode = UIViewContentModeCenter;
     [self addSubview:leftThumb];
@@ -163,7 +163,7 @@
     
     //right thumb is below
     rightThumb = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, BJRANGESLIDER_THUMB_SIZE + 12, BJRANGESLIDER_THUMB_SIZE * 2)];
-    rightThumb.image = [UIImage imageNamed:@"BJRangeSliderEndThumb.png"];
+    rightThumb.image = [UIImage imageNamed:@"BJRangeSlider.bundle/BJRangeSliderEndThumb.png"];
     rightThumb.userInteractionEnabled = YES;
     rightThumb.contentMode = UIViewContentModeCenter;
     [self addSubview:rightThumb];
@@ -233,7 +233,7 @@
             self.showThumbs = NO;
             self.showRange = NO;
             self.showProgress = YES;
-            progressImage.image = [[UIImage imageNamed:@"BJRangeSliderRed.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4];
+            progressImage.image = [[UIImage imageNamed:@"BJRangeSlider.bundle/BJRangeSliderRed.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4];
             break;
             
         case BJRSWPAudioSetTrimMode:
@@ -246,7 +246,7 @@
             self.showThumbs = NO;
             self.showRange = YES;
             self.showProgress = YES;
-            progressImage.image = [[UIImage imageNamed:@"BJRangeSliderGreen.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4];
+            progressImage.image = [[UIImage imageNamed:@"BJRangeSlider.bundle/BJRangeSliderGreen.png"] stretchableImageWithLeftCapWidth:5 topCapHeight:4];
         default:
             break;
     }
