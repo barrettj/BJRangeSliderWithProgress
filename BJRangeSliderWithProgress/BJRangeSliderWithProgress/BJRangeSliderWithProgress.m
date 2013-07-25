@@ -52,11 +52,23 @@
 - (void)setMinValue:(CGFloat)newValue {
     minValue = newValue;
     
+    if (leftValue < minValue)
+        leftValue = minValue;
+    
+    if (rightValue < minValue)
+        rightValue = minValue;
+    
     [self setNeedsLayout];
 }
 
 - (void)setMaxValue:(CGFloat)newValue {
     maxValue = newValue;
+    
+    if (leftValue > maxValue)
+        leftValue = maxValue;
+    
+    if (rightValue > maxValue)
+        rightValue = maxValue;
     
     [self setNeedsLayout];
 }
